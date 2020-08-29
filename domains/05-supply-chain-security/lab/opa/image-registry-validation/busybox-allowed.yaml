@@ -1,0 +1,8 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: busybox-allowed
+spec:
+  containers:
+  - image: busybox
+    name: busybox
